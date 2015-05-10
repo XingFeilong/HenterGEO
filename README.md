@@ -5,9 +5,10 @@ HenterGEO
 Install
 -------
 ```
-$ git clone https://github.com/henter/HenterGEO.git
+$ git clone https://github.com/lamjack/HenterGEO
 $ cd HenterGEO/
 $ composer update
+$ cp app/config/parameters.yml.dist app/config/parameters.yml
 $ php app/console doctrine:mongodb:schema:update
 $ php app/console geo:data:import
 ```
