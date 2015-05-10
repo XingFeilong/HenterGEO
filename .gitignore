@@ -4,6 +4,7 @@ code_check.php
 app/bootstrap*
 app/cache/*
 app/logs/*
+app/config/parameters.yml
 vendor/
 composer.lock
 composer.phar
